@@ -19,17 +19,17 @@ const HomePage = () => {
     {
       title: "JOY - Journey of You",
       subtitle: "Chuyên gia thương mại điện tử hàng đầu Việt Nam",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2340&q=80"
+      image: "/vp1.jpg"
     },
     {
       title: "Amazon Global Selling",
       subtitle: "Đưa sản phẩm Việt Nam ra thế giới",
-      image: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2340&q=80"
+      image: "/vp2.jpg"
     },
     {
       title: "TikTok Shop Success",
       subtitle: "Chinh phục thị trường trẻ năng động",
-      image: "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=2340&q=80"
+      image: "/vp3.jpg"
     }
   ]
 
