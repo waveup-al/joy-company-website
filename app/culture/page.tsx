@@ -435,7 +435,7 @@ const CulturePage = () => {
               className="group relative overflow-hidden rounded-xl aspect-square shadow-lg hover:shadow-xl transition-all duration-500 transform hover:-translate-y-2"
             >
               <img
-                src="./giao lưu.jpg"
+                src="/giao lưu.jpg"
                 alt="Hoạt động âm nhạc văn phòng"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-in-out"
               />
@@ -469,7 +469,7 @@ const CulturePage = () => {
               className="group relative overflow-hidden rounded-xl aspect-square shadow-lg hover:shadow-xl transition-all duration-500 transform hover:-translate-y-2"
             >
               <img
-                src="./thể chất.jpg"
+                src="/thể chất.jpg"
                 alt="Team Building"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-in-out"
               />
@@ -502,7 +502,7 @@ const CulturePage = () => {
               className="group relative overflow-hidden rounded-xl aspect-square shadow-lg hover:shadow-xl transition-all duration-500 transform hover:-translate-y-2"
             >
               <img
-                src="./workshop.jpg"
+                src="/workshop.jpg"
                 alt="Workshop chuyên môn"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-in-out"
               />

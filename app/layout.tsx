@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     locale: 'vi_VN',
     type: 'website',
     images: [{
-      url: './LOGO.png',
+      url: '/LOGO.png',
       width: 1200,
       height: 630,
       alt: 'Joy Company Logo'
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Joy - Journey of You',
     description: 'Chuyên gia thương mại điện tử hàng đầu Việt Nam',
-    images: ['./LOGO.png']
+    images: ['/LOGO.png']
   },
   robots: {
     index: true,

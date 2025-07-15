@@ -5,9 +5,8 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  // Tạm thời bỏ basePath và assetPrefix để hình ảnh hoạt động trong môi trường phát triển
-  // basePath: process.env.NODE_ENV === 'production' ? '/joy-company-website' : '',
-  // assetPrefix: process.env.NODE_ENV === 'production' ? '/joy-company-website/' : ''
+  basePath: process.env.NODE_ENV === 'production' ? '/joy-company-website' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/joy-company-website/' : ''
 };
 
 module.exports = nextConfig;
