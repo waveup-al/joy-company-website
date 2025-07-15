@@ -34,9 +34,9 @@ const HomePage = () => {
   ]
 
   const partners = [
-    { name: "JOY Vietnam", logo: "https://example.com/joy-logo.png" },
-    { name: "Amazon", logo: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" },
-    { name: "TikTok Shop", logo: "https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/8152caf0c8e8bc67ae0d.png" }
+    { name: "JOY Vietnam", logo: "/LOGO.png" },
+    { name: "Amazon", logo: "/LOGO.png" },
+    { name: "TikTok Shop", logo: "/LOGO.png" }
   ]
 
   const stats = [
@@ -207,7 +207,7 @@ const HomePage = () => {
               className="relative"
             >
               <img
-                src="https://vinaconex25.com.vn/wp-content/uploads/2024/08/z5711418477074_e568d1746cfc0304f5b40726e8c9ad38-scaled.jpg"
+                src="/vp4.jpg"
                 alt="Company Building"
                 className="rounded-lg shadow-2xl"
               />

@@ -23,7 +23,7 @@ const CulturePage = () => {
       category: "Học tập",
       icon: GraduationCap,
       description: "Phát triển kỹ năng và kiến thức chuyên môn",
-      image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      image: "/workshop.jpg",
       activities: [
         "Workshop hàng tuần",
         "Khóa học online miễn phí",
@@ -37,7 +37,7 @@ const CulturePage = () => {
       category: "Thiện nguyện",
       icon: HeartHandshake,
       description: "Đóng góp cho cộng đồng và xã hội",
-      image: "https://images.unsplash.com/photo-1559027615-cd4628902d4a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      image: "/vp2.jpg",
       activities: [
         "Từ thiện hàng tháng",
         "Volunteer tại trại trẻ mồ côi",
@@ -65,7 +65,7 @@ const CulturePage = () => {
       category: "Sáng tạo",
       icon: Rocket,
       description: "Khuyến khích đổi mới và sáng tạo",
-      image: "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      image: "/vp3.jpg",
       activities: [
         "Hackathon nội bộ",
         "Innovation day",
@@ -79,7 +79,7 @@ const CulturePage = () => {
       category: "Toàn cầu",
       icon: Globe,
       description: "Kết nối và học hỏi từ toàn cầu",
-      image: "https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      image: "/vp4.jpg",
       activities: [
         "Cơ hội làm việc quốc tế",
         "Trao đổi văn hóa",

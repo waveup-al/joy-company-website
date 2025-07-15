@@ -39,7 +39,7 @@ const AboutPage = () => {
         {/* Background */}
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=2340&q=80"
+            src="/vp1.jpg"
             alt="Global vision"
             className="w-full h-full object-cover"
           />
@@ -321,7 +321,7 @@ const AboutPage = () => {
               className="relative"
             >
               <img
-                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                src="/workshop.jpg"
                 alt="Team collaboration"
                 className="rounded-lg shadow-2xl"
               />
