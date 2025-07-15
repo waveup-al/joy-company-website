@@ -19,24 +19,24 @@ const HomePage = () => {
     {
       title: "JOY - Journey of You",
       subtitle: "Chuyên gia thương mại điện tử hàng đầu Việt Nam",
-      image: "/vp1.jpg"
+      image: "./vp1.jpg"
     },
     {
       title: "Amazon Global Selling",
       subtitle: "Đưa sản phẩm Việt Nam ra thế giới",
-      image: "/vp2.jpg"
+      image: "./vp2.jpg"
     },
     {
       title: "TikTok Shop Success",
       subtitle: "Chinh phục thị trường trẻ năng động",
-      image: "/vp3.jpg"
+      image: "./vp3.jpg"
     }
   ]
 
   const partners = [
-    { name: "JOY Vietnam", logo: "/LOGO.png" },
-    { name: "Amazon", logo: "/LOGO.png" },
-    { name: "TikTok Shop", logo: "/LOGO.png" }
+    { name: "JOY Vietnam", logo: "./LOGO.png" },
+    { name: "Amazon", logo: "./LOGO.png" },
+    { name: "TikTok Shop", logo: "./LOGO.png" }
   ]
 
   const stats = [
@@ -173,7 +173,7 @@ const HomePage = () => {
             >
               <div className="flex items-center mb-6">
                 <Image
-                  src="/LOGO.png"
+                  src="./LOGO.png"
                   alt="Company Logo"
                   width={64}
                   height={64}

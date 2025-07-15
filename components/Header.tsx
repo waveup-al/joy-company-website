@@ -39,7 +39,7 @@ export function Header() {
           <Link href="/" className="flex items-center space-x-3">
             <div className="flex items-center space-x-2">
               <Image
-                src="/LOGO.png"
+                src="./LOGO.png"
                 alt="Company Logo"
                 width={40}
                 height={40}

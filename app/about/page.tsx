@@ -178,25 +178,25 @@ const AboutPage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
             {[
               { 
-                src: '/vp1.jpg', 
+                src: './vp1.jpg', 
                 title: 'Không gian làm việc chính',
                 description: 'Khu vực làm việc mở với thiết kế hiện đại, tối ưu hóa năng suất và sự tương tác.',
                 features: ['Thiết kế mở', 'Ánh sáng tự nhiên', 'Công nghệ hiện đại']
               },
               { 
-                src: '/vp2.jpg', 
+                src: './vp2.jpg', 
                 title: 'Phòng họp & Hội thảo',
                 description: 'Không gian họp được trang bị đầy đủ công nghệ cho các cuộc họp hiệu quả.',
                 features: ['Hệ thống AV', 'Whiteboard thông minh', 'Video conference']
               },
               { 
-                src: '/vp3.jpg', 
+                src: './vp3.jpg', 
                 title: 'Khu vực sáng tạo',
                 description: 'Không gian linh hoạt dành cho brainstorming và các hoạt động sáng tạo.',
                 features: ['Thiết kế linh hoạt', 'Màu sắc tươi sáng', 'Không gian mở']
               },
               { 
-                src: '/vp4.jpg', 
+                src: './vp4.jpg', 
                 title: 'Khu vực thư giãn',
                 description: 'Không gian nghỉ ngơi thoải mái giúp nhân viên tái tạo năng lượng.',
                 features: ['Ghế sofa thoải mái', 'Khu vực coffee', 'Không gian yên tĩnh']
