@@ -1,8 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  trailingSlash: true,
   images: {
-    domains: ['localhost'],
+    unoptimized: true
   },
-}
+  basePath: process.env.NODE_ENV === 'production' ? '/joy-company-website' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/joy-company-website/' : ''
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
