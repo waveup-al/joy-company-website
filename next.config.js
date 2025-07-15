@@ -5,8 +5,8 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/joy-amazon-website' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/joy-amazon-website/' : ''
+  basePath: process.env.NODE_ENV === 'production' ? '/joy-company-website' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/joy-company-website/' : ''
 };
 
 module.exports = nextConfig;

@@ -5,7 +5,32 @@ import { Shield, Heart, Lightbulb, CheckCircle } from 'lucide-react'
 import Image from 'next/image'
 
 const AboutPage = () => {
-  const coreValues = []
+  const coreValues = [
+    {
+      title: 'Chính trực',
+      content: 'Luôn hành động với sự trung thực, minh bạch và có trách nhiệm trong mọi quyết định và hành động của mình.',
+      icon: Shield,
+      color: 'from-blue-500 to-blue-600'
+    },
+    {
+      title: 'Tận tâm',
+      content: 'Đặt khách hàng và đồng nghiệp lên hàng đầu, luôn nỗ lực hết mình để mang lại giá trị tốt nhất.',
+      icon: Heart,
+      color: 'from-red-500 to-pink-600'
+    },
+    {
+      title: 'Sáng tạo',
+      content: 'Không ngừng đổi mới, tìm kiếm những giải pháp độc đáo và hiệu quả để vượt qua mọi thử thách.',
+      icon: Lightbulb,
+      color: 'from-yellow-500 to-orange-600'
+    },
+    {
+      title: 'Xuất sắc',
+      content: 'Cam kết đạt được những tiêu chuẩn cao nhất trong mọi công việc, không ngừng học hỏi và phát triển.',
+      icon: CheckCircle,
+      color: 'from-green-500 to-emerald-600'
+    }
+  ]
 
   return (
     <div className="min-h-screen pt-20">
