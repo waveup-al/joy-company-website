@@ -56,6 +56,27 @@ npm run dev
 - `npm run start` - Chạy production server
 - `npm run lint` - Kiểm tra code với ESLint
 
+## Deployment
+
+Website được tự động deploy lên GitHub Pages thông qua GitHub Actions:
+
+1. **Tự động**: Mỗi khi push code lên branch `main`, GitHub Actions sẽ tự động build và deploy
+2. **Thủ công**: Có thể trigger deployment thủ công từ tab Actions trên GitHub
+3. **URL**: Website sẽ có sẵn tại `https://waveup-al.github.io/joy-company-website/`
+
+### Cấu hình Deployment
+
+- **GitHub Actions Workflow**: `.github/workflows/deploy.yml`
+- **Static Export**: Sử dụng `output: 'export'` trong `next.config.js`
+- **Base Path**: Cấu hình cho GitHub Pages với `/joy-company-website`
+- **Image Optimization**: Tắt để tương thích với static export
+
+### Yêu cầu
+
+- Repository phải có GitHub Pages được bật
+- Workflow permissions phải được cấu hình đúng
+- Source được set thành "GitHub Actions"
+
 ## Đóng góp
 
 Mọi đóng góp để cải thiện website đều được hoan nghênh. Vui lòng tạo issue hoặc pull request.
